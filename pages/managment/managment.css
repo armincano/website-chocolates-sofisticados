@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.rubik-regular {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .knewave-regular {
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
+:root {
+	--choco-primary-color: #3c2620;
+	--choco-secondary-color: #f7a170;
+	--choco-secondary-accent-color: #e9722e;
+	--choco-tertiary-color: #281b17;
+
+	--dark-color: #343a40;
+	--white-color: #fff;
+	--black-color: #000;
+	--font-size-base: 1rem;
+	--font-size-lg: 1.25rem;
+	--font-size-sm: 0.875rem;
+	--font-size-xs: 0.75rem;
+	--font-size-h1: 2.5rem;
+	--font-size-h2: 2rem;
+	--font-size-h3: 1.75rem;
+	--font-size-h4: 1.5rem;
+	--font-size-h5: 1.25rem;
+	--font-size-h6: 1rem;
+}
+
+.no-bg {
+    background-color: red !important;
+}
+
+.table-primary {
+    background-color: red !important; /* Replace #yourColorHere with your desired color */
+}
+
+.bg-primary, .btn-primary {
+    background-color: var(--choco-secondary-accent-color) !important;
+    border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Knewave", cursive;
+    padding-left: 1.5rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+body {
+    font-family: "Rubik";
+	background-color: var(--choco-tertiary-color);
+	color: var(--white-color);
+}
+
+.section-box {
+	background-color: var(--choco-primary-color);
+    border-radius: 12px;
+}
+
+.chart {
+	height: 250px;
+}
+
+.inline-elements {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
