@@ -2,7 +2,6 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    
 }
 
 .sectionQuienes {
@@ -10,24 +9,13 @@ body {
     margin-bottom: 30px;
 }
 
-
-
-
- #productos, #about, #contact{
-
-
-   
+#productos, #about, #contact {
     max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  
 }
-
-
-
-
 
 /* Estilos personalizados para el Carrusel */
 .carousel {
