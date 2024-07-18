@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.sectionQuienes {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+ #productos, #about, #contact{
+
+
+   
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+
+
+
+/* Estilos personalizados para el Carrusel */
+.carousel {
+    max-width: 1000px;
+    margin: 0 auto; /* Centrar el carrusel */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Asegurar que las imágenes sean responsivas */
+}
+
+.carousel-indicators {
+    bottom: 10px; /* Ajustar la posición de los indicadores si es necesario */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Hacer los iconos de control más visibles */
+    border-radius: 50%;
+    padding: 10px;
+}
+
+@media (max-width: 992px) {
+    .carousel {
+        max-width: 100%; /* Asegurarse de que el carrusel ocupe todo el ancho en pantallas más pequeñas */
+    }
+}
