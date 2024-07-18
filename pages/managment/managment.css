@@ -64,6 +64,11 @@ body {
 	color: var(--white-color);
 }
 
+.nav-font{
+	font-family: "Knewave", cursive;
+	color: var(--choco-primary-color);
+}
+
 .section-box {
 	background-color: var(--choco-primary-color);
     border-radius: 12px;
